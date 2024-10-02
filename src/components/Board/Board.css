@@ -1,0 +1,35 @@
+.board {
+  display: flex;
+  gap: 30px;
+  padding: 20px;
+  overflow-x: auto;
+  justify-content: flex-start;
+}
+
+.column {
+  flex: 1;
+  width: 400px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.column h2 {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.priority-icon-header {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
